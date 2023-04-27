@@ -25,7 +25,7 @@ st.markdown(img, unsafe_allow_html=True)
 #Adding image
 FILE_DIR = os.path.dirname(os.path.abspath(__file__))
 dir_of_interest = os.path.join(FILE_DIR, "resources")
-IMAGE_PATH = os.path.join(dir_of_interest, "images")
+IMAGE_PATH = os.path.join(dir_of_interest, "Images")
 IMAGE_PATH1 = os.path.join(IMAGE_PATH, "pubpic.jpg")
 DATA_PATH1 = os.path.join(dir_of_interest, "open_pubs_updated.csv")
 
